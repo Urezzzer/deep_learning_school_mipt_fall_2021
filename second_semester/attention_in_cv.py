@@ -70,7 +70,7 @@ class SASA_Layer(nn.Module):
         
         attn_out = torch.matmul(weights, v.transpose(4, 5)) 
         attn_out = attn_out.reshape(batch_size, -1, height, width)
-        return attn_out + x
+        return attn_out
 
 CBAM
 
