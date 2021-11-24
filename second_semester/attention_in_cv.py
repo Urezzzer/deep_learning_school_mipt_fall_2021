@@ -1,4 +1,4 @@
-Stand-Alone-Self-Attention-in-Vision-Models
+Pathes-Self-Attention
 
 import torch
 import torch.nn as nn
@@ -166,7 +166,7 @@ class Bottleneck(nn.Module):
         out = self.relu(out)
         return out
 
-SELF_ATTENTION
+Stand-Alone-Self-Attention
 
 class Self_Attn(nn.Module):
     """ Self attention Layer"""
